@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LoginActivity</string>
+
+    <!-- Strings related to login -->
+    <string name="button_login_label">Login</string>
+    <string name="text_view_login">Login</string>
+    <string name="text_view_password">Password</string>
+    <string name="checkbox_show_password">Show password</string>
+    <string name="text_view_wrong_data">Invalid login and/or password</string>
+
+    <string name="invalid_position">Could not get you position! :/</string>
+    <string name="button_refresh_label">Refresh Position</string>
+
+
+</resources>
