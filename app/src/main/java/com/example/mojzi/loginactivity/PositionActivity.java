@@ -38,7 +38,11 @@ public class PositionActivity extends AppCompatActivity {
             @Override
             public void onLocationChanged(Location location) {
                 userLocation = location;
-                locationTV.setText(userLocation.toString());
+                if(userLocation != null) {
+                    locationTV.setText(userLocation.toString());
+                } else {
+                    locationTV.setText(R.string.text_view_invalid_position);
+                }
             }
 
             @Override
@@ -76,7 +80,7 @@ public class PositionActivity extends AppCompatActivity {
             if(userLocation != null) {
                 locationTV.setText(userLocation.toString());
             } else {
-                locationTV.setText(R.string.text_view_wrong_data);
+                locationTV.setText(R.string.text_view_invalid_position);
             }
             locationManager.removeUpdates(listener);
         }

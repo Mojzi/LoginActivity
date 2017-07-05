@@ -1,6 +1,5 @@
 package com.example.mojzi.loginactivity;
 
-import android.util.Log;
 
 import com.example.mojzi.loginactivity.users.User;
 import com.example.mojzi.loginactivity.users.UsersDAO;
@@ -16,6 +15,7 @@ class LoginValidator {
 
     public void fillSampleData() {
         users.insertUser(new User("Admin", "Admin1"));
+        users.insertUser(new User("test", "qwer"));
     }
 
     public boolean loginCorrect(String login, String password) {

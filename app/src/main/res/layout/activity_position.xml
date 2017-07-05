@@ -9,7 +9,7 @@
         android:id="@+id/positoinTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/invalid_position"
+        android:text="@string/text_view_invalid_position"
         android:textAlignment="center"
         android:textColor="@color/colorAccent" />
 

@@ -8,7 +8,7 @@
     <string name="checkbox_show_password">Show password</string>
     <string name="text_view_wrong_data">Invalid login and/or password</string>
 
-    <string name="invalid_position">Could not get you position! :/</string>
+    <string name="text_view_invalid_position">Could not get you position! :/</string>
     <string name="button_refresh_label">Refresh Position</string>
 
 

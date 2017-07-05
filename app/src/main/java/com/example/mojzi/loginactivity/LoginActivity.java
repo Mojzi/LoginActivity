@@ -2,7 +2,6 @@ package com.example.mojzi.loginactivity;
 
 
 import android.content.Intent;
-import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
@@ -49,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else {
-                    Snackbar.make(view, "Nope", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(view, R.string.text_view_wrong_data, Snackbar.LENGTH_SHORT).show();
                 }
 
             }
